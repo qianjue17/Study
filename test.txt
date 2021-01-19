@@ -4,3 +4,4 @@ this is a new feature
 fix bug
 stash
 stash ending
+cherry
