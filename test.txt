@@ -1,7 +1,4 @@
 1
 2
-<<<<<<< HEAD
-=======
 this is a new feature
->>>>>>> feature1
-this is a new feature
+fix bug
