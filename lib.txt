@@ -1,0 +1,6 @@
+静态库
+gcc -c xxx.c
+ar -rc libxxx.a xxx.o
+动态库
+gcc -c xxx.c
+gcc -fpic -shared xxx.o -o libxxx.so
