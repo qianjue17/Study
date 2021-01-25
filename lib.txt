@@ -1,6 +1,10 @@
-静态库
+生成静态库
 gcc -c xxx.c
 ar -rc libxxx.a xxx.o
-动态库
+生成动态库
 gcc -c xxx.c
 gcc -fpic -shared xxx.o -o libxxx.so
+链接动态库/静态库
+gcc xxx.c -L -lxxx
+配置搜索路径
+export LD_LIBRARY_PATH=[PATH]:LD_LIBRARY_PATH:
