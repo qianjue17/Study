@@ -847,7 +847,7 @@ extern void funlockfile (FILE *__stream) __attribute__ ((__nothrow__ , __leaf__)
 # 2 "main.c" 2
 
 # 2 "main.c"
-viod swap(int *a, int *b){
+void swap(int *a, int *b){
     int tmp;
     tmp = *a;
     *a = *b;
